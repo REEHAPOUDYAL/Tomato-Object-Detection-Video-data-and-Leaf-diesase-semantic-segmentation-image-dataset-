@@ -1,0 +1,13 @@
+streamlit
+torch
+torchvision
+numpy
+opencv-python
+matplotlib
+segmentation-models-pytorch
+timm
+albumentations
+tqdm
+Pillow
+tensorboard
+ultralytics
