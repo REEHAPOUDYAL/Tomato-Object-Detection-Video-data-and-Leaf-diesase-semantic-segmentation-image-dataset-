@@ -128,7 +128,7 @@ A **Streamlit-based dashboard** was developed to support:
 | Multiclass Pixel Accuracy | **97.03%** |
 | Mean IoU (IoU) | **0.8107** |
 | Loss | **0.1975** |
-| F1 score| **0.9688* |
+| F1 score| **0.9688** |
 | Dice score | **0.8724** |
 
 ---
