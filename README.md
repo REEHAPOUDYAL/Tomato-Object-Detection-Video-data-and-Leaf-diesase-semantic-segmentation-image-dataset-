@@ -1,7 +1,7 @@
 # Tomato Leaf Disease Segmentation (Semantic Segmentation)
 
 ## Project Overview
-This research project focuses on **precision detection and semantic segmentation** of three tomato leaf pathologies:
+This research project focuses on **precision detection and semantic segmentation** of three tomato leaf diseases:
 
 - **Early Blight**
 - **Late Blight**
@@ -10,8 +10,8 @@ This research project focuses on **precision detection and semantic segmentation
 Unlike basic classification approaches, this work implements **multiclass semantic segmentation** to provide **pixel-level localization** of diseased regions. This enables spatial understanding of infection spread, supporting **early-stage agricultural intervention and disease monitoring**.
 
 ### Key Achievements
-- **Dataset**: Curated and managed **10,000+ annotated masks** using **Roboflow**
-- **Accuracy**: Achieved **97.03% Multiclass Pixel Accuracy**
+- **Dataset**: Curated and managed **10,000 data** using **Roboflow**
+- **Accuracy**: Achieved **97.03% Multiclass Pixel Accuracy** ** 0.81 IoU** 
 - **Localization Performance**: Achieved **0.8107 mean IoU (Intersection over Union)**
 
 ---
