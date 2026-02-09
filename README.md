@@ -26,8 +26,8 @@ This project followed an **iterative research lifecycle**, evolving from baselin
 #### Baseline Models
 Initially, the following architectures were tested:
 
-- **U-Net + ResNet34 Encoder**
 - **U-Net + ResNet50 Encoder**
+- **U-Net + ResNet34 Encoder**
 
 However, these models showed limitations in effectively capturing **multi-scale features**, especially for **small and scattered disease spots**.
 
@@ -77,7 +77,7 @@ Final Loss Function: **Weighted (Focal + Dice Loss)**
 
 ###  Training Framework
 - **PyTorch**
-- **PyTorch Lightning** (for scalable, reproducible training workflows)
+
 
 ### Optimization Setup
 - **Optimizer**: AdamW  
@@ -126,10 +126,11 @@ A **Streamlit-based dashboard** was developed to support:
 | Metric | Score |
 |--------|-------|
 | Multiclass Pixel Accuracy | **97.03%** |
-| Mean IoU (mIoU) | **0.8107** |
+| Mean IoU (IoU) | **0.8107** |
+| Loss | **0.1975** |
+| F1 score| **0.9688* |
+| Dice score | **0.8724** |
 
 ---
 
-## 📁 Project Structure (Recommended for GitHub)
-To make the repository clean and professional, the following structure is recommended:
 
