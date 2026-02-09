@@ -16,7 +16,7 @@ Unlike basic classification approaches, this work implements **multiclass semant
 
 ---
 
-## 🔬 Research & Methodology
+## Research & Methodology
 This project followed an **iterative research lifecycle**, evolving from baseline segmentation architectures into a customized high-performance pipeline.
 
 ---
